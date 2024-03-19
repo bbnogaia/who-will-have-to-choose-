@@ -1,19 +1,21 @@
-# who-will-have-to-choose-
-this is the first web application i tried to implement.
+# who-will-have-to-choose?
 
-The idea is pretty basic: every time i'm with someone there's always a question: 
-> "What should we do????"
-> "Come on!!! Say something we can dooooo!"
-<br>
-And every time the answare is
-<br>
-> "no i don't want to choose nooooo"
-<br>
-So i decided to code this web application to help people decide!!
+Hey there! 😎
 
-There are 3 types of choices based on: where to eat, what to do and what film to watch!
+I'm excited to introduce my very first web application! You know how it goes... whenever I'm hanging out with someone, there's always that moment of indecision:
 
-I hope this can be helpful and if you see any possibile improvment don't esitate to contact me!
+> "What should we dooooo?"
+>
+> "Come on!!! Suggest something we can dooooo!"
 
-Byeeeee!
+And inevitably, the response is:
+
+> "No, I don't want to choose, nooooo."
+
+So, I came up with a web application to help people make decisions!
+Here's how it works: there are three categories of choices: where to eat, what to do, and what film to watch!
+
+I hope you find it helpful, and if you have any suggestions for improvement, feel free to reach out!😉
+
+See youuuu
 ### Happy coding!
