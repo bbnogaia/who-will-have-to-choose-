@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat</title>
+    <link rel="stylesheet" href="eatcss.css">
+</head>
+<body>
+    <script src="eatjs.js"></script>
+    <div class="greetings">
+        <h3>yeah right, ofc it's always a problem where to go eat...</h3>
+        <h4>luckly for you i'm here to help!!</h4>
+    </div>
+    <div class="names">
+        <p>now do me a favor and insert your names thx:</p>
+        <input type="text" id="gf"></br>
+        <input type="text" id="bf">
+        <p>at this point i'm gonna run a simple Math.random function to decide who will have to make the dreadful decision... </p>
+        <input type="submit" value="click me if you're ready to know" id="eatbutton" onclick="eat()">
+        <p id="prologue"></p></br>
+        <p id="finaldecision"></p>
+    </div>
+    <div id="space"></div>
+    <div>
+        <p id="attention">ATTENTION PLEASE</p>
+        <p>if you have some places in mind but you don't know which one to choose, compile this and i'll make the decision for you!</p>
+    </div>
+    <div class="container">
+        <div>
+            <form id="myform">
+              <input type="text" placeholder="enter place name" class="textInput" autofocus>
+              <button id="add"  type="submit">add place</button>
+            </form>         
+        </div>
+    
+        <div>
+            <ul id="lists">
+            </ul>
+        </div>
+         
+    </div> 
+    <div id="wheel-container" display="none">
+        <div id="wheel"></div>
+    </div>
+    
+    <button id="spin-button" onclick="spinWheel()">lesgo?</button>
+    <p id="prologue2"></p>
+    <p id="result"></p>
+</body>
+</html>

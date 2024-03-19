@@ -1,0 +1,102 @@
+body {
+    margin: auto;
+    width: 80%;
+    padding: 10%;
+    font-family: American Typewriter, serif;
+    /*background-color: rgb(199, 184, 213);*/
+    background-image: url(purple_background.jpeg);
+    /*background-image: linear-gradient(rgb(214, 189, 243), rgb(255, 255, 255), rgb(216, 126, 255)) ;*/
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h3 {
+    color: rgb(201, 103, 246);
+    text-align: center;
+    font-size: 25px;
+    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    margin-bottom: 1%;
+}
+
+h4 {
+    color: rgb(178, 131, 200);
+    text-align: center;
+    font-size: 20px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin-top: 0%;
+}
+
+.random > p {
+    text-align: center;
+    font-size: large;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+#attention {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: -3px 0 white, 0 3px whitw, 3px 0 white, 0 -3px white;
+    font-weight: bold;
+}
+
+#todobutton {
+    margin-left: 38%;
+    font-size: large;
+    background-color: rgb(119, 0, 183);
+    color: white;
+    border-radius: 8px;
+}
+
+#todobutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+#space {
+    margin:auto;
+    height: 20%;
+    padding: 2%;;
+}
+
+p {
+    font-size: large;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+.textInput {
+    font-size: 15px;
+}
+
+#spin-button {
+    font-size: large;
+    background-color: rgb(119, 0, 183);
+    color: white;
+    border-radius: 8px;
+    margin-left: 3%;
+}
+
+#spin-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ #finaldecision {
+    font-size: 30px;
+    margin-left: 1.5%;
+    margin-top: -2%;
+    color: rgb(119, 0, 183);
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    font-size: bold;
+ }
+
+ #prologue, #prologue2{
+    margin-bottom: 1%;
+    margin-top: 3%;
+ }
+
+ #result {
+    margin-left: 3%;
+    margin-top: -0.5%;
+    color: rgb(119, 0, 183);
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    font-size: 30px;
+ }

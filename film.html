@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film</title>
+    <link rel="stylesheet" href="filmcss.css" />
+</head>
+<body>
+    <script src="filmjs.js"></script>
+    <div class="greetings">
+        <h3>bruh, there's like a million things to watch considering both films and tv series and y'all can't still choose one...</h3>
+        <h4>luckly for you i'm here to help!!</h4>
+    </div>
+    <p>firstly, i'm very sorry to announce that my creator doesn't know how to implement AI yet (shes's so dumb)<br>so i'll choose for you based on an embedded list of popular films according to IMDB! </p>
+    <input type="submit" value="click me to discover which film to watch" id="filmbutton" onclick="film()">
+        <p id="prologue"></p></br>
+        <p id="finaldecision"></p>
+    </div>
+    <div id="space"></div>
+    
+    <div>
+        <p id="attention">ATTENTION PLEASE</p>
+        <p>if you have some funny/strange things to do in mind but you don't know which one to choose, compile this and i'll make the decision for you!</p>
+    </div>
+    <div class="container">
+        <div>
+            <form>
+              <input type="text" placeholder="enter what to do" class="textInput" autofocus>
+              <button id="add"  type="submit">add to do</button>
+            </form>         
+        </div>
+    
+        <div>
+            <ul id="lists">
+            </ul>
+        </div>
+         
+    </div> 
+    <div id="wheel-container" display="none">
+        <div id="wheel"></div>
+    </div>
+    
+    <button id="spin-button" onclick="spinWheel()">vamos</button>
+    <p id="prologue2"></p>
+    <p id="result"></p>
+   
+</body>
+</html>
